@@ -1,0 +1,28 @@
+{
+  "name": "require-safe",
+  "version": "1.0.0",
+  "description": "Require files providing not found, error and success callbacks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rauno56/require-safe.git"
+  },
+  "keywords": [
+    "node",
+    "require",
+    "safe",
+    "error",
+    "notfound",
+    "missing",
+    "success"
+  ],
+  "author": "Rauno Viskus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rauno56/require-safe/issues"
+  },
+  "homepage": "https://github.com/Rauno56/require-safe#readme"
+}
