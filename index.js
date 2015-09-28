@@ -5,7 +5,7 @@ function loadModule(path, success, notFound, fail) {
 	try {
 		module = require(path);
 	} catch (error) {
-		if (error.code === 'MODULE_NOT_FOUND') {
+		if (error.code === 'MODULE_NOT_FOUND' && ~error.message.indexOf('\'' + path + '\'')) {
 			return notFound();
 		}
 		if (fail) {
